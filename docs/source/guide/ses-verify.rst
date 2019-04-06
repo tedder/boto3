@@ -19,7 +19,7 @@ Verifying Email Identities in Amazon SES
    :keywords: Amazon SES code examples for Python, approve emails recipients with Python
 
 When you first start using your Amazon Simple Email Service (SES) account, all senders and recipients must be verified in the same AWS Region that you
-will be sending emails to. For more information about sending emails, see `Sending Email with Amazon SES <http://aws.amazon.com/documentation/ses/sending-email.html>`__.
+will be sending emails to. For more information about sending emails, see `Sending Email with Amazon SES <https://docs.aws.amazon.com/ses/latest/DeveloperGuide/sending-email.html>`__.
 
 The following examples show how to:
 
@@ -68,7 +68,7 @@ Verify an Email Domain
 
 SES can send email only from verified email addresses or domains. By verifying a domain, you demonstrate that you're the owner of that domain. When you verify a domain, you allow SES to send email from any address on that domain.
 
-When you run the following code example, SES provides you with a verification token. You have to add the token to your domain's DNS configuration. For more information, see `Verifying a Domain with Amazon SES <http://aws.amazon.com/documentation/ses/verify-domain-procedure.html>`_.
+When you run the following code example, SES provides you with a verification token. You have to add the token to your domain's DNS configuration. For more information, see `Verifying a Domain with Amazon SES <https://docs.aws.amazon.com/ses/latest/DeveloperGuide/verify-domain-procedure.html>`_.
 
 To add a sending domain to your SES account, use the `VerifyDomainIdentity <https://docs.aws.amazon.com/ses/latest/APIReference/API_VerifyDomainIdentity.html>`_ operation.
 
